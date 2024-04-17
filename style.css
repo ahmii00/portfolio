@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color and font styles */
+body {
+  background-image: url(123191_laptop-1366x768-winter-wallpapers-hd-desktop-backgrounds-1366x768_1366x768_h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #3333338e;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+}
+
+/* Header styles */
+header {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #3333338e;
+  text-align: center;
+  padding: 2em;
+  margin: 8%;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3pc;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Call-to-action buttons */
+.cta-buttons {
+  margin-top: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff9900;
+  color: #ffffff;
+}
+
+.links .link-img{
+  height: 30px;
+  margin-top: 8px;
+  margin-right: 20px;
+  padding: 7px;
+}
+
+.links .link-img:hover{
+  cursor: pointer;
+  height: 35px;
+}
